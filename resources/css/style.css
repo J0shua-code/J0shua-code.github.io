@@ -1,15 +1,13 @@
 body {
-        font-family: 'Akira Expanded', sans-serif;
-        padding-left: 10%;
-        padding-right: 10%;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center;
-        
-        
 }
 
 .container {
+        font-family: 'Akira Expanded', sans-serif;
+        padding-left: 10%;
+        padding-right: 10%;
         margin-top: 35%;
         color: aliceblue;
         -webkit-text-stroke: 1% black;
