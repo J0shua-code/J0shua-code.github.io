@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./resources/css/index.css">
-    <title>Joshua</title>
+    <link href="http://fonts.cdnfonts.com/css/akira-expanded" rel="stylesheet">
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <script src="./resources/js/color.js"></script>
+    <title>404</title>
 </head>
+
 <body>
-    <h1>JOSHUA</h1>
+    <div class="container">
+        <div class="error">
+            <h1>404</h1>
+            <h2>Not Found</h2>
+        </div>
+    </div>
 </body>
+<script>
+    function randomInteger(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+    var image = "url(./resources/images/bg"+ randomInteger(1, 3) + ".gif)"
+    document.body.style.backgroundImage = image
+
+    // const avgSolidColor = document.getElementById('avgSolidColor');
+
+</script>
+
 </html>
